@@ -1,0 +1,310 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+@font-face {
+  font-family: "Pathe";
+  src: url(./font/Trade\ Gothic\ Bold\ Condensed\ No.\ 20.otf);
+}
+/* header */
+:root {
+  --merk-kleur: rgb(255, 200, 40);
+}
+.header {
+  background-color: transparent;
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: var(--merk-kleur);
+}
+
+.header li a {
+  display: block;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+  background-color: white;
+}
+
+.header .logo {
+  display: block;
+  float: left;
+  font-size: 2em;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* menu */
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+
+/* menu icon */
+
+.header .menu-icon {
+  cursor: pointer;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.header .menu-icon .navicon {
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background 0.2s ease-out;
+  width: 18px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  background: #333;
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+  top: -5px;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+}
+
+/* .moviecover {
+  position: relative;
+  width: 30%;
+}
+h1 {
+  font-family: "Pathe";
+  color: white;
+  position: relative;
+  font-size: 1em;
+  top: 0px;
+} */
+.film-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  max-width: 100%;
+}
+.fnaf-cover {
+  flex-basis: 30%;
+}
+h1 {
+  font-family: "Pathe";
+  font-size: 1.25em;
+  padding-left: 20px;
+  color: white;
+}
+button {
+  background-color: var(--merk-kleur);
+  padding: 2%;
+  border-radius: 6px;
+  border-style: none;
+  background-color: #ffc426;
+  background-image: -webkit-linear-gradient(top, #f7da66, #ffc426);
+  background-image: linear-gradient(to bottom, #f7da66, #ffc426);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom: 10%;
+}
+section.film-info button {
+  width: 30%;
+}
+
+.rating {
+  width: 40%;
+  margin-left: 2%;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding: 0.7em;
+}
+.LeesMeer {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  background-color: var(--merk-kleur);
+  padding: 2%;
+  border-radius: 6px;
+  border-style: none;
+  background-color: rgb(176, 172, 172);
+  background-image: -webkit-linear-gradient(top, #f7da66, rgb(176, 172, 172));
+  background-image: linear-gradient(
+    to bottom,
+    rgb(176, 172, 172),
+    rgb(176, 172, 172)
+  );
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom: 10%;
+  width: 70%;
+}
+h2 {
+  color: white;
+  margin: 0;
+  margin-left: 2%;
+}
+.Tijden_Tickets {
+  height: 10em;
+  background-color: white;
+  width: 100%;
+}
+h3 {
+  padding: 7%;
+  font-family: "Pathe";
+  margin-top: 10%;
+  color: black;
+}
+section.Tijden_Tickets button {
+  margin: 0;
+  position: relative;
+  left: 17%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.Trailers_Foto {
+  margin-top: 5%;
+}
+
+.carousel {
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.slides {
+  width: 100%;
+  display: flex;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  margin-bottom: 1em;
+}
+
+.slides::-webkit-scrollbar {
+  display: none;
+}
+
+.slides-item {
+  align-items: center;
+  border-radius: 0.6em;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  margin: 0 1rem;
+  position: relative;
+  scroll-snap-align: center;
+  width: 200px;
+  height: 300px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+.slide-1 {
+  background-color: #fdc;
+}
+
+.slide-2 {
+  background-color: #bfd;
+}
+
+.slide-3 {
+  background-color: #cdf;
+}
+
+.slide-4 {
+  background-color: #dca;
+}
+
+.slide-5 {
+  background-color: #ffc;
+}
+footer {
+  background-color: var(--merk-kleur);
+  height: 5em;
+  margin: auto 0;
+  text-align: center;
+}
+.Icon {
+  margin-top: 1em;
+  width: 10%;
+}
