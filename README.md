@@ -14,15 +14,15 @@ Nb. Door _open_ toe te voegen aan een _details_ element kun je deze standaard op
 
 ### Auteur:
 
-Sanne 't Hooft (vervangen door jouw naam)
+Camil Gilliad
 
 #### Je startniveau:
 
-hier je startniveau (kies uit zwart, rood óf blauw)
+Rood/blauw
 
 #### Je focus:
 
-hier je focus (kies uit responsive óf surface plane)
+surface plane
 
 </details>
 
@@ -33,17 +33,17 @@ hier je focus (kies uit responsive óf surface plane)
 
 ### Je opdracht:
 
-link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+www.pathe.nl
 
 #### Screenshot(s) van de eerste pagina (small screen):
 
-hier de naam van de pagina  
- <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+home pagina van de pathe
+<img src="/documentatie/FireShot Capture 001 - Pathé.nl - De filmsite voor alle Pathé bioscopen - www.pathe.nl.pdf" width="375px" alt="home pagina van de pathe site">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 
-hier de naam van de pagina  
- <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+Pathe detail pagina van een film, in dit geval van five nights at freddy's
+<img src="/documentatie/FireShot Capture 003 - Five Nights at Freddy&apos;s in de bioscoop - Trailer, Tijden & Tickets - _ - www.pathe.nl.png" width="375px" alt="Pagina van details van een film">
 
 </details>
 
@@ -55,6 +55,7 @@ hier de naam van de pagina
 ### Bevindingen
 
 Lijst met je bevindingen die in de test naar voren kwamen:
+de pathe website ziet er verzorgd uit en heeft een moderne uitstraling. Alles is logisch ingedeeld en makkelijk te vinden
 
 </details>
 
@@ -65,15 +66,7 @@ Lijst met je bevindingen die in de test naar voren kwamen:
 
 ### de hele pagina:
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
-
-### dynamisch deel (bijv menu):
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-### wellicht nog een dynamisch deel (bijv filter):
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="/documentatie/breakdown.pdf" width="375px" alt="breakdown van de hele pagina">
 
 </details>
 
@@ -86,6 +79,8 @@ Lijst met je bevindingen die in de test naar voren kwamen:
 
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 Tijdens week 1 heb ik gekeken hoe de website van de pathe in elkaar zit en hoe veel elementen kunnen worden omgezet naar pure html en css.
+
+tijdens deze week ben ik erachter gekomen dat de pathe website veel gebruik maakt van javascript. Dit vond ik wel irritant wat er zijn erg veel onderdelen die gewoon met html een css opgelost zouden kunnen worden.
 
 ### Agenda voor meeting
 
@@ -115,7 +110,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Stand van zaken
 
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik heb veel aan de website gewerkt en de homepagina ziet er goed uit.Ik heb een carousel gevonden die ik kan gebruiken alleen is die niet semantisch correct. De carousel maakt namelijk gebruik van div elementen
 
 ### Agenda voor meeting
 
@@ -186,19 +181,21 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Je uitkomst - karakteristiek screenshots:
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+Ik vind dat het namaken van de pathe site goed is gelukt. De website ziet er keurig uit en is semantisch erg correct.
 
 ### Dit ging goed/Heb ik geleerd:
 
 Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+Ik heb in de afgelopen weken veel geleerd van flexbox en css over het algemeen. Ik heb in mijn gehele site geen gebruik gemaakt van javascript en dat vond ik een flinke uitdaging.Ik wist dat een beetje javascript wel zou mogen, maar zelf snap ik er ook weinig van en begreep ik een stuk meer van de css oplossingen
 
 ### Dit was lastig/Is niet gelukt:
 
 Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+wat me helaas niet is gelukt is dat bij de carousel op de echte website de achtergrond veranderd op welke film je gefocussed bent . Dit effect heb ik helaas niet kunnen nabootsen.
+Voor de rest denk ik dat vrijwel alles me is gelukt om naa te maken.
+
 </details>
 
 ## Bronnenlijst
@@ -210,8 +207,9 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 Nb. ChatGpT en andere AI horen er ook bij.
 Nb. Vermeld de bronnen ook in je code.
 
-1. bron 1
-2. bron 2
-3. ...
+1. www.pathe.nl
+2. https://levelup.gitconnected.com/how-to-make-a-fully-accessible-css-only-carousel-40e8bd62032b
+3. Heel veel verschillende pagina's van stackoverflow. heb nergens code van gekopieeerd
+4. css trick heb ik amper gebruikt
 
 </details>

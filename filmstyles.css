@@ -28,6 +28,8 @@ body {
 }
 
 .header li a {
+  list-style: none;
+  color: black;
   display: block;
   padding: 20px 20px;
   text-decoration: none;
@@ -219,6 +221,7 @@ h2 {
   color: white;
   margin: 0;
   margin-left: 2%;
+  font-family: "Pathe";
 }
 .Tijden_Tickets {
   height: 10em;
@@ -241,7 +244,7 @@ section.Tijden_Tickets button {
 .Trailers_Foto {
   margin-top: 5%;
 }
-
+/*carousel*/
 .carousel {
   margin: 0 auto;
   overflow: hidden;
@@ -271,8 +274,8 @@ section.Tijden_Tickets button {
   margin: 0 1rem;
   position: relative;
   scroll-snap-align: center;
-  width: 200px;
-  height: 300px;
+  width: 9.375em;
+  height: 12.5em;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
@@ -307,4 +310,7 @@ footer {
 .Icon {
   margin-top: 1em;
   width: 10%;
+}
+.trailer {
+  width: 17.188em;
 }
