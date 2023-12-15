@@ -50,12 +50,21 @@ Pathe detail pagina van een film, in dit geval van five nights at freddy's
 ## Toegankelijkheidstest 1/2 (week 1)
 
 <details>
+
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
 ### Bevindingen
 
 Lijst met je bevindingen die in de test naar voren kwamen:
-de pathe website ziet er verzorgd uit en heeft een moderne uitstraling. Alles is logisch ingedeeld en makkelijk te vinden
+de pathe website ziet er verzorgd uit en heeft een moderne uitstraling. Alles is logisch ingedeeld en makkelijk te vinden.
+Tijdens de eerste les hebben we de site geinspecteerd doormiddel van de WAG checklist.(Website Accessibility Guidelines)
+
+In deze test is naar buiten gekomen is dat de pathe niet bij elke image alt text heeft genoteerd en dat vind ik voor een bioscoop pagina erg slecht. Hierdoor kan een blind/slechtziend persoon niet goed observeren of er leuke film in de bioscoop zijn.
+
+- ondertiteling is niet beschikbaar in de trailers
+- transscript is niet beschikbaar voor de trailers
+- De website is standaard in een drakmode en er is geen lightmode beschikbaar.
+  <img src="/documentatie/WAG Checklist.pdf" width="375px" alt="Wag checklist">
 
 </details>
 
@@ -81,25 +90,17 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 Tijdens week 1 heb ik gekeken hoe de website van de pathe in elkaar zit en hoe veel elementen kunnen worden omgezet naar pure html en css.
 
 tijdens deze week ben ik erachter gekomen dat de pathe website veel gebruik maakt van javascript. Dit vond ik wel irritant wat er zijn erg veel onderdelen die gewoon met html een css opgelost zouden kunnen worden.
+Tijdens week 2 heb ik de navigatie balk gemaakt. Het was best een uitdaging om dat voor elkaar te krijgen zonder gebruik te maken van div elementen. maar ik heb het uiteindelijk zo gedaan:
+<img src="/documentatie/Navibalk.png" width="375px" alt="Navigatie balk">
 
-### Agenda voor meeting
+Op de pathe website zitten ook buttons onder de navigatie balk die heb ik op deze manier gemaakt en gestyled.
 
-samen met je groepje opstellen
+<img src="/documentatie/topbuttonshtml.png" width="375px" alt="Buttons top">
+<img src="/documentatie/Topbuttons.png" width="375px" alt="buttons top">
 
-| student 1      | student 2          | student 3    | student 4        |
-| -------------- | ------------------ | ------------ | ---------------- |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+### feedback
 
-### Verslag van meeting
-
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+De carousel kan een lastige uitdaging worden maar let er op dat je deze semantisch correct maakt.
 
 </details>
 
@@ -110,26 +111,14 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Stand van zaken
 
-Ik heb veel aan de website gewerkt en de homepagina ziet er goed uit.Ik heb een carousel gevonden die ik kan gebruiken alleen is die niet semantisch correct. De carousel maakt namelijk gebruik van div elementen
+Ik heb veel aan de website gewerkt en de homepagina ziet er goed uit.Ik heb een carousel gevonden die ik kan gebruiken alleen is die niet semantisch correct. De carousel maakt namelijk gebruik van div elementen. Door het eerst op deze manier te doen heb ik er wel veel kennis uit gehaald om het hopelijk in de toekomst wel op de juiste manier te maken.
+<img src="/documentatie/Navibalk.png" width="375px" alt="carousel">
 
 ### Agenda voor meeting
 
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| -------------- | ------------------ | ------------ | ---------------- |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+Ik heb deze week alleen maar zelfstandig gewerkt en geen feedback ontvangen of gevraagd
 
 ### Verslag van meeting
-
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
 
 </details>
 
@@ -140,7 +129,9 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Bevindingen
 
-Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+Ik ben deze les zelf nog een keer door de WAG checklist heen gegaan om de controleren of ik overal toegankelijke code heb geschreven. Dit heb ik overal gedaan alleen had ik geen odnertiteling of transcript bij de video. Maar dat ligt ook niet binnen mijn bereik.
+
+De pdf die ik had gemaakt voor de 2de test ben ik kwijt geraakt of is niet goed opgeslagen.
 
 </details>
 
@@ -151,26 +142,19 @@ Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er v
 
 ### Stand van zaken
 
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik heb deze erg veel gewerkt aan de website. Zo heb ik alle buttons netjes gestyled op de zelfde manier als dat ze op de pathe website staan en heb ik de carousel op de juiste manier gemaakt.
+Voor de carousel heb ik het volgende gedaan:
+Ik heb veel geworsteld list items en ul's. Uiteindelijk is het mij niet gelukt om het op de manier te maken. Maar tijdens het uitvogelen daarvan ben ik op een website gekomen waar iemand uitlegd hoe je een carousel op de semantisch correcte manier maakt. Diegene maakt gebruik van images en de code die ervoor nodig was zag er niet al te ingewikkeld uit.
+Ik heb veel afgekeken hoe die code geschreven was en heb dat vervolgens toegepast om mijn eigen site.(bron2)
+<img src="/documentatie/Carouselhtml.png" width="375px" alt="carousel html code">
+<img src="/documentatie/Carouselcss.png" width="375px" alt="carousel styling">
 
-### Agenda voor meeting
-
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| -------------- | ------------------ | ------------ | ---------------- |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-### Verslag van meeting
+### Verslag van gesprek met de docent
 
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- zorg dat je geen divs meer hebt
+- check of er overal alt text bij staat
 
 </details>
 
@@ -187,14 +171,19 @@ Ik vind dat het namaken van de pathe site goed is gelukt. De website ziet er keu
 
 Korte omschrijving met plaatjes
 
-Ik heb in de afgelopen weken veel geleerd van flexbox en css over het algemeen. Ik heb in mijn gehele site geen gebruik gemaakt van javascript en dat vond ik een flinke uitdaging.Ik wist dat een beetje javascript wel zou mogen, maar zelf snap ik er ook weinig van en begreep ik een stuk meer van de css oplossingen
+Ik heb in de afgelopen weken veel geleerd van flexbox en css over het algemeen. Ik heb in mijn gehele site geen gebruik gemaakt van javascript en dat vond ik een flinke uitdaging.Ik wist dat een beetje javascript wel zou mogen, maar zelf snap ik er ook weinig van en begreep ik een stuk meer van de css oplossingen.
 
 ### Dit was lastig/Is niet gelukt:
 
 Korte omschrijving met plaatjes
 
 wat me helaas niet is gelukt is dat bij de carousel op de echte website de achtergrond veranderd op welke film je gefocussed bent . Dit effect heb ik helaas niet kunnen nabootsen.
-Voor de rest denk ik dat vrijwel alles me is gelukt om naa te maken.
+Voor de rest denk ik dat vrijwel alles me is gelukt om na te maken.
+<img src="/documentatie/FireShot Capture 005 - Pathe - 127.0.0.1.png" width="375px" alt="home pagina">
+Dit is hoe de uiteindelijke home er in zijn geheel uit ziet. Alles kan worden gelezen door de screenreader.
+De tweede pagina ziet er als volgend uit:
+<img src="/documentatie/FireShot Capture 006 - Five nights at freddy&apos;s - 127.0.0.1.png" width="375px" alt="film details">
+Bij de detail pagina van de film kom ik het alleen niet voor elkaar krijgen om de button correct onder de tekt te stylen Ik kon diet wel doen maar alleen doormiddel van float. Maar dat is semantisch niet correct.
 
 </details>
 
